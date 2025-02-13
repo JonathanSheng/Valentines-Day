@@ -32,7 +32,7 @@ function updateQuestion() {
 
 document.addEventListener("DOMContentLoaded", function () {
     const gifContainer = document.querySelector(".background-gifs");
-    const gifSources = ["../assets/turtle-heart.gif"]; // Add more GIF URLs
+    const gifSources = ["assets/turtle-heart.gif"]; // Add more GIF URLs
     const numberOfGifs = 150; // Adjust how many GIFs you want
 
     for (let i = 0; i < numberOfGifs; i++) {
