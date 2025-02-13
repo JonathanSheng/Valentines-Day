@@ -1,0 +1,132 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+    /*
+    background-image: url("../assets/turtle-love.gif");
+    background-repeat: repeat; /* Repeats the GIF to cover the whole page */
+    /*background-size: 100px 100px; /* Adjust the size of each GIF */
+    
+}
+
+h1 {
+    font-family: 'Sacramento';
+    font-size: 72px; /* You can adjust this size */
+    color: #d32f2f; /* Dark red color to make it stand out */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* Optional text shadow for readability */
+}
+
+.background-gifs {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Ensures GIFs are behind everything */
+    pointer-events: none; /* Prevents interaction */
+}
+
+.gif {
+    position: absolute;
+    width: 60px; /* Adjust size of the GIF */
+    height: auto;
+    opacity: 0.8; /* Slight transparency to blend in */
+}
+
+
+.intro-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-collage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+    grid-gap: 10px; /* Space between the images */
+    width: 100%;
+    max-width: 600px; /* Optional: limit the max width of the grid */
+    margin: 0 auto; /* Center the grid */
+}
+
+.image-collage img {
+    width: 100%;  /* Make image fill its grid cell */
+    height: 100%; /* Ensure image takes full height of the grid cell */
+    object-fit: cover; /* Ensure image covers the entire grid cell */
+    border-radius: 8px; /* Optional: rounded corners */
+    max-width: 180px; /* Control image width */
+    max-height: 180px; /* Control image height */
+}
+
+.start-btn {
+    background-color: #f87171;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.start-btn:hover {
+    background-color: #f44336;
+}
+
+.quiz-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    display: none; /* Initially hidden */
+}
+
+h2 {
+    font-family: 'Sacramento';
+    color: #e53e3e;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.options button {
+    background-color: #f87171;
+    color: white;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.options button:hover {
+    background-color: #f44336;
+}
+
+#endMessage {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e53e3e;
+}
