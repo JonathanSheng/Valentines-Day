@@ -13,12 +13,6 @@ body {
     align-items: center;
     height: 100vh;
     flex-direction: column;
-
-    /*
-    background-image: url("../assets/turtle-love.gif");
-    background-repeat: repeat; /* Repeats the GIF to cover the whole page */
-    /*background-size: 100px 100px; /* Adjust the size of each GIF */
-    
 }
 
 h1 {

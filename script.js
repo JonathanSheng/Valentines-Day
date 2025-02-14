@@ -2,6 +2,13 @@ const questions = [
     { a: "Receive a heartfelt love letter", b: "Have a surprise date night" },
     { a: "Have breakfast in bed", b: "Enjoy a romantic dinner" },
     { a: "Go on a beach vacation", b: "Stay in a cozy cabin getaway" },
+    { a: "Receive a bouquet of roses", b: "Receive a box of chocolates" },
+    { a: "Go on a scenic walk", b: "Take a romantic boat ride"},
+    { a: "Be sung to", b: "Have a poem written for you"},
+    { a: "Play Catan only", b: "Watch horror movies"},
+    { a: "Go back to the Hamptons", b: "Go back to Florida"},
+    { a: "Hang out with Jungkook for a week", b: "Fast forward a semester in dental school"},
+    { a: "Not smoke for a year", b: "Not watch TV for a year"}
 ];
 
 let currentIndex = 0;
